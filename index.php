@@ -11,7 +11,7 @@
     session_start();
     $_SESSION['username'] = $_POST['usernameField']
     $_SESSION['password'] = $_POST['passwordField']
-    header();
+    header('page1.php');
     exit();
   }
   ?>
